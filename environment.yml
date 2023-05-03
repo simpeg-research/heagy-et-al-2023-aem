@@ -1,0 +1,24 @@
+name: aem2023
+
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - ipywidgets>=0.6.0
+  - mkl
+  - scikit-learn
+  - numcodecs
+  - jdcal
+  - h5py
+  - discretize
+  - scikit-image
+  - pip
+  - pip:
+      - geoana
+      - utm
+      - git+https://github.com/jcapriot/simpeg.git@meta/multiprocessing
